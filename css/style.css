@@ -23,7 +23,35 @@ body {
     position: fixed;
     height: 100%;
     width: 100%; }
-
+    #colorlib-ready-services {
+      padding: 7em 0;
+      clear: both;
+      background-color: #f8f9fa;
+  }
+  .ready-services-item {
+      display: block;
+      height: 300px;
+      margin-bottom: 30px;
+      background-size: cover;
+      background-position: center center;
+      position: relative;
+      color: white;
+  }
+  .ready-services-item .desc {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+  }
+  .ready-services-item .desc h3 {
+      margin: 0;
+      color: #fff;
+  }
+  .ready-services-item .desc span {
+      color: #ccc;
+  }
 #colorlib-wrapper {
   height: 100%;
   width: 100%;
@@ -1119,7 +1147,7 @@ header {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
     width: 20px;
     height: 2px;
     color: #000;
